@@ -189,6 +189,12 @@ object FrmCadastroProdutos: TFrmCadastroProdutos
     Width = 648
     Height = 236
     DataSource = DsProdutos
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 8
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
@@ -213,7 +219,6 @@ object FrmCadastroProdutos: TFrmCadastroProdutos
         Expanded = False
         FieldName = 'ncm'
         Title.Caption = 'NCM'
-        Width = 74
         Visible = True
       end
       item
@@ -1793,7 +1798,7 @@ object FrmCadastroProdutos: TFrmCadastroProdutos
   object dbcUnidade: TDBComboBox
     Left = 456
     Top = 124
-    Width = 98
+    Width = 112
     Height = 26
     DataField = 'unidade'
     DataSource = DsProdutos

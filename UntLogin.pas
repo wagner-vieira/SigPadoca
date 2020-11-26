@@ -12,7 +12,6 @@ type
     Image1: TImage;
     edtUser: TEdit;
     edtPassword: TEdit;
-    btnEntrar: TSpeedButton;
     bntEntrar2: TButton;
     procedure btnEntrarClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);

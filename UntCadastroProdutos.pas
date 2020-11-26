@@ -136,6 +136,7 @@ end;
 procedure TFrmCadastroProdutos.btnSalvarClick(Sender: TObject);
 begin
   AtivaDesativaBotoes;
+  dbPrecoUnitario.Field.EditMask := '#,##0.00';
   QueProdutos.Post;
   ShowMessage('Produto Gravado com sucesso!');
 end;

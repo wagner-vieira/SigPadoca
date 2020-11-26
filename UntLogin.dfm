@@ -1807,16 +1807,7 @@ object FrmLogin: TFrmLogin
       88A874532593BCB8898AB0A5EA18BA84A0DDEE92A84187F428410FB272AA2F95
       36A235F84C70137718E12E0B0388F03610E023DB9C756F705B09BB85D8F80587
       88B81B12665B142C7E06C0C2232C19DC62C51F7C59C180FFD9}
-    ExplicitLeft = 8
-  end
-  object btnEntrar: TSpeedButton
-    Left = 307
-    Top = 255
-    Width = 192
-    Height = 38
-    Cursor = crHandPoint
-    Flat = True
-    OnClick = btnEntrarClick
+    ExplicitLeft = -8
   end
   object edtUser: TEdit
     Left = 320
@@ -1826,7 +1817,7 @@ object FrmLogin: TFrmLogin
     BorderStyle = bsNone
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -15
+    Font.Height = -19
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
@@ -1840,7 +1831,7 @@ object FrmLogin: TFrmLogin
     BorderStyle = bsNone
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -15
+    Font.Height = -19
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
@@ -1848,14 +1839,14 @@ object FrmLogin: TFrmLogin
     TabOrder = 1
   end
   object bntEntrar2: TButton
-    Left = 505
+    Left = 296
     Top = 251
-    Width = 64
-    Height = 42
+    Width = 209
+    Height = 48
     Caption = 'Entrar'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -15
+    Font.Height = -19
     Font.Name = 'Tahoma'
     Font.Style = [fsBold]
     ParentFont = False
